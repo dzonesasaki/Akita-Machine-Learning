@@ -1,6 +1,6 @@
-#あきた機械学習 実習で用いる写経コード
+# あきた機械学習 実習で用いる写経コード
 
-##写経演習の順序
+## 写経演習の順序
 1) lmstst.tsv : 表計算ソフト
 2) lmstst_py.py : python(3.5)
 3) lmstst_tf.py : tensorflow(1.3)
