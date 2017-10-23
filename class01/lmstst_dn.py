@@ -16,6 +16,6 @@ estimater.fit(input_fn = input_fn_train ,steps=4)
 input_fn_est2 = tf.estimator.inputs.numpy_input_fn(x={'x':np.array([1.5])}, batch_size=1 , shuffle=False,num_epochs=1)
 
 yL=estimater.predict( input_fn=input_fn_est2 )
-yp=list(estimater.predict(1.5))
+yp=list(yL)
 
 print(yp)
